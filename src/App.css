@@ -1,0 +1,291 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.navBar, .navbar-list{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navBar{
+  height: 9vmin;
+  color: #fff;
+  background-color: #111;
+  padding: 0 4vmin;
+}
+
+.logo{
+  font-size: 5vmin;
+}
+
+.navbar-list{
+  list-style: none;
+  gap: 5vmin;
+}
+
+.mainBox{
+  display: flex;
+}
+
+.rightBox{
+  width: 40%;
+}
+
+.container{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 60vw;
+  overflow: scroll;
+  max-height: 90vh;
+}
+
+.container::-webkit-scrollbar{
+  display: none;
+}
+
+.cart {
+  height: 60vmin;
+  width: 50vmin;
+  text-align: center;
+  box-shadow: gray 0 0 10px;
+  margin: 3vmin;
+}
+
+.productImage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 70%;
+  overflow: hidden;
+}
+
+.productImage img {
+  width: 100%;
+  height: auto;
+}
+
+.productInfoBox {
+  height: 30%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.productName{
+  font-size: 15px;
+  margin: 0.5vmin;
+  font-weight: 500;
+}
+
+.productPrice{
+  margin: 0.5vmin;
+  font-size: 15px;
+}
+
+.addToCartBtn{
+  height: 5vmin;
+  width: 30vmin;
+  border: 20px;
+  font-size: 15px;
+  margin: 0.5vmin;
+  border-radius: 20px;
+  background-color: black;
+  color: #fff;
+}
+
+.addToCartBtn:hover{
+  transform: scale(1.2);
+}
+
+/* right box */
+
+.rightUpperBox {
+  width: 100%;
+  height: 50vmin;
+  box-shadow: 0 0 5px gray;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.addedItemHeading {
+  justify-content: center;
+  font-size: 5vmin;
+  font-weight: 600;
+  height: 10vmin;
+  display: flex;
+  align-items: center;
+}
+
+.addedItemList {
+  height: auto;
+}
+
+.amountInfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 3vmin;
+  height: 5vmin;
+}
+
+.table {
+  width: 100%;
+  height: auto;
+  overflow: scroll;
+  border-radius: 10px;
+}
+
+.table::-webkit-scrollbar {
+  display: none;
+}
+
+#addedItemTable {
+  width: 100%;
+}
+
+.table tr {
+  height: 6vmin;
+  box-shadow: 0 0.5px 0.5px gray;
+}
+
+.table tr td {
+  text-align: center;
+}
+
+.countBtn{
+ font-size: 15px;
+   cursor: pointer;
+   border: none;
+   background-color: transparent;
+}
+
+.count{
+  font-size: 25px;
+  margin: 10px;
+}
+
+.proceedPaymentBox{
+  margin: 4vmin;
+  text-align: center;
+
+}
+
+.proceedPayment{
+  height: 6vmin;
+  width: 35vmin;
+  font-size: 2.8vmin;
+  background-color: black;
+  color: #fff;
+  border-radius: 20px;
+  border: none;
+}
+
+.proceedPayment:hover{
+  transform: scale(1.05);
+}
+
+.PaymentDetails{
+  width: 60%;
+}
+
+.paymentInfoh2 {
+  font-size: 4vmin;
+  font-weight: 600;
+  padding: 1vmin 0;
+  color: #333;
+}
+
+
+.paymentTypeBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 15vmin;
+}
+
+.PaymentDetails .paymentBox {
+  background-color: #eee;
+  padding: 5vmin;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5vmin;
+}
+
+.paymentTypeBox .paymentType {
+  height: 8vmin;
+  width: 13vmin;
+  padding: 1vmin;
+  color: #222;
+  background-color: #fff;
+  font-size: 3vmin;
+  display: grid;
+  align-items: center;
+  border: solid 2px #ccc;
+  border-radius: 15px;
+}
+
+.paymentMoreType{
+  height: 8vmin;
+  width: 7vmin;
+  padding: 1vmin;
+  color: #222;
+  background-color: #fff;
+  font-size: 3vmin;
+  display: grid;
+  align-items: center;
+  border: solid 2px #ccc;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.paymentTypeBox .paymentType:hover, .paymentTypeBox .paymentMoreType:hover {
+  color: orange;
+  align-items: center;
+  border: solid 2px orange;
+}
+
+.box50 {
+  min-width: 40%;
+}
+
+.input50{
+  height: 5vmin;
+  width: 97%;
+  padding-left:2vmin ;
+  border-radius: 10px;
+  border: none;
+  box-shadow: gray 0 2px 5px;
+}
+
+.box50 select {
+  min-width: 100%;
+  height: 6vmin;
+  border: none;
+  border-radius: 10px;
+}
+
+.continueBtn{
+  height: 6vmin;
+  border-radius: 10px;
+  font-size: 3vmin;
+  border: none;
+  background-color: black;
+  color: #fff;
+}
+
+.userInfo{
+  padding-top: 0.8vmin;
+  padding-bottom: 0.8vmin;
+}
+
+.amonut{
+  font-size: 3vmin;
+  padding-bottom: 2vmin;
+}
