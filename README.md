@@ -21,6 +21,10 @@ This project is an online shoe store built using React. It extends the functiona
 - **Context API**: For state management.
 - **CSS**: Styling of components.
 
+## Demo
+Check out the live demo of the application here: [Cheakout](https://task24-qr7h.vercel.app/)
+
+
 ## How to Run the Project
 
 1. **Clone the Repository**:
