@@ -28,7 +28,7 @@ const CartRender = ({ currentPage }) => {
       <div className="addedItemHeading">Shopping Cart</div>
       <div className="addedItemList">
         {cart.length === 0 ? (
-          <p>No items in the cart</p>
+          <div className="NoItem" style={{height: '60vmin', display: 'flex', justifyContent:'center'}}><img src="images\NoItem.png" alt="" height={'100%'}/></div>
         ) : (
           <div className="table">
             <table id="addedItemTable">
