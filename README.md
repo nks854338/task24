@@ -22,32 +22,7 @@ This project is an online shoe store built using React. It extends the functiona
 - **CSS**: Styling of components.
 
 ## Demo
-Check out the live demo of the application here: [Cheakout](https://task24-qr7h.vercel.app/)
-
-
-## How to Run the Project
-
-1. **Clone the Repository**:
-   
-bash
-   git clone https://github.com/your-username/shoe-store-payment.git
-   cd shoe-store-payment
-
-
-2. **Install Dependencies**:
-   
-bash
-   npm install
-
-
-3. **Run the Application**:
-   
-bash
-   npm start
-
-
-4. **Open in Browser**:
-   The application will run on http://localhost:3000/.
+Check out the live demo of the application here: [Click here](https://task24-qr7h.vercel.app/)
 
 ## Usage
 
